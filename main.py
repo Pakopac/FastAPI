@@ -3,10 +3,6 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import joblib
-from pydantic import BaseModel
-
-class News(BaseModel):
-    title: str
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")

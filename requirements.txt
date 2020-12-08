@@ -1,0 +1,8 @@
+fastapi
+aiofiles
+jinja2
+python-multipart
+pandas
+joblib
+sklearn
+stop_words
